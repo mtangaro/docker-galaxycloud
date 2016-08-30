@@ -20,4 +20,4 @@ EXPOSE 21 22 80
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["/usr/bin/supervisord","/usr/sbin/sshd", "-D"]
+CMD ["/usr/bin/galaxy-startup","/usr/sbin/sshd", "-D"]
