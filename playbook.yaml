@@ -11,4 +11,4 @@
       # use supervisord to start services
       supervisor_manage_postgres: "True"
       supervisor_manage_nginx: "True"
-      supervisor_manage_proftpd: "True
+      supervisor_manage_proftpd: "True"
