@@ -18,4 +18,4 @@ EXPOSE 21 80
 
 #ENTRYPOINT ["/entrypoint.sh"] # only for development
 
-CMD /etc/init.d/vmcontext start; /usr/bin/galaxy-startup
+CMD /etc/init.d/vmcontext start; /usr/local/bin/galaxy-startup
