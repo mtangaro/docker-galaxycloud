@@ -5,7 +5,6 @@ MAINTAINER ma.tangaro@ibiom.cnr.it
 
 ENV container docker
 
-#COPY ["playbook.yaml","entrypoint.sh","/"] # only for developemnt
 COPY ["playbook.yaml","/"]
 
 RUN ansible-galaxy install indigo-dc.galaxycloud
@@ -16,6 +15,6 @@ RUN ansible-playbook /playbook.yaml
 
 EXPOSE 21 80
 
-#ENTRYPOINT ["/entrypoint.sh"] # only for development
+ENTRYPOINT ["/usr/local/bin/galaxy-startup"] 
 
-CMD /etc/init.d/vmcontext start; /usr/local/bin/galaxy-startup
+CMD ["/bin/bash"]
