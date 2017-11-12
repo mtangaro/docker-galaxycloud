@@ -15,6 +15,5 @@ RUN ansible-playbook /playbook.yaml
 
 EXPOSE 21 80
 
-ENTRYPOINT ["/usr/local/bin/galaxy-startup"] 
-
-CMD ["/bin/bash"]
+# Start Galaxy and keep it running in background mode
+CMD /usr/local/bin/galaxy-startup; /usr/bin/sleep infinity
