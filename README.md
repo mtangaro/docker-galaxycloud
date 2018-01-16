@@ -2,12 +2,7 @@ docker-galaxycloud
 ==================
 Run your docker with:
 ```
-docker run -d -p 80:80 -p 21:21 mtangaro/docker-galaxycloud-epigen
-```
-
-To correctly load the reference data (through CernVM-FS) you need to run this docker in privileged mode:
-```
-sudo docker run -d -p 80:80 -p 21:21 mtangaro/docker-galaxycloud-epigen
+docker run -d -p 80:80 -p 21:21 mtangaro/docker-galaxycloud
 ```
 
 Build local docker image
