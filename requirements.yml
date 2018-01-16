@@ -1,3 +1,0 @@
-- src: git+https://github.com/mtangaro/ansible-role-galaxycloud.git
-  version: remotes/origin/devel
-  name: galaxycloud
