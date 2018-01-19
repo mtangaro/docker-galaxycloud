@@ -6,6 +6,7 @@
       GALAXY_ADMIN_EMAIL: "admin@elixir-italy.org"
       GALAXY_ADMIN_USERNAME: "admin"
       GALAXY_VERSION: "release_17.05"
+      galaxy_instance_description: "Galaxycloud docker"
       galaxy_instance_key_pub: ""
       set_pgsql_random_password: false # disable database random password generation
       set_proftpd_random_password: false # disable proftpd db raandom password generation
