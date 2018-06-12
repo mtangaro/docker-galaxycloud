@@ -14,3 +14,4 @@
       supervisor_manage_postgres: "True"
       supervisor_manage_nginx: "True"
       supervisor_manage_proftpd: "True"
+      require_login: "False"
